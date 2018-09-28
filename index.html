@@ -1,0 +1,988 @@
+
+
+<!doctype html>
+
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+
+	<meta name="renderer" content="webkit">
+
+	<title>《剑网3》官网——次世代国风MMORPG</title>
+	<link rel="stylesheet" href="index.css" />
+
+	<style type="text/css">
+
+		*{
+			margin:0;
+			padding:0;
+		}
+		body{
+			overflow: hidden;
+			width:100%;
+			height:100%;
+		}
+		h1,h2,h3,h4,h5,h6{
+			font-size:100%;
+		}
+
+		body,button,input,select,textarea {
+			font-family:Tahoma,Arial,Roboto,”Droid Sans”,”Helvetica Neue”,”Droid Sans Fallback”,”Heiti SC”,sans-self;
+			font-size:62.5%;
+			line-height:1.2;
+		}
+
+		ol,ul{
+			list-style:none;
+		}
+
+		html,body{
+			width:100%;
+			height:100%;
+			overflow:hidden;
+		}
+
+		.section-wrap{
+			width:100%;
+			height:100%;
+			overflow:visible;
+			transition:transform 1s;
+			-webkit-transition:-webkit-transform 1s;
+		}
+
+		.section-wrap .section{
+			position:relative;
+			width:100%;
+			height:100%;
+			background-position:center center;
+			background-repeat:no-repeat;
+		}
+
+		.section-wrap .section-1{
+			background-size: cover;
+			background-image: url(images/fenliuye_index_s.jpg);
+			background-position:0 50px;
+		}
+
+		.put-section-0{ transform:translateY(0);-webkit-transform:translateY(0);}
+
+		.put-section-1{ transform:translateY(-100%);-webkit-transform:translateY(-100%);}
+
+		.put-section-2{ transform:translateY(-200%);-webkit-transform:translateY(-200%);}
+
+		.put-section-3{ transform:translateY(-300%);-webkit-transform:translateY(-300%);}
+
+		.put-section-4{ transform:translateY(-400%);-webkit-transform:translateY(-400%);}
+
+		#fp-nav{
+			margin-top: -75px;
+			display: block;
+			position: fixed;
+			z-index: 100;
+			top: 50%;
+			opacity: 1;
+			transform: translate3d(0px, 0px, 0px);
+		}
+		#fp-nav.left {
+			left: 4px;
+		}
+		#fp-nav ul{
+			overflow: hidden;
+			width: 30px;
+		}
+		#fp-nav ul li {
+			height: 16px;
+			width: 16px;
+			overflow: hidden;
+			float: left;
+			margin: 7px;
+		}
+		#fp-nav ul li a{
+			display: block;
+			position: relative;
+			z-index: 1;
+			width: 100%;
+			height: 100%;
+			cursor: pointer;
+			text-decoration: none;
+		}
+		#fp-nav ul li a span{
+			position: relative;
+			left: 0px;
+			top: 0px;
+			display: block;
+			width: 100%;
+			height: 100%;
+			background:url(images/icon_navigation.png) no-repeat;
+			background-position: center bottom;
+			margin: 0;
+			-webkit-transition: none;
+			-o-transition: none;
+			transition: none;
+		}
+		#fp-nav ul li.on span, #fp-nav ul li:hover.on span{
+			width: 16px;
+			height: 16px;
+			background-position: center top;
+			margin: 0;
+		}
+	</style>
+
+</head>
+
+<body>
+<div style="display: none; position: absolute;z-index:2005; width: auto; left: 212px; top: 50px;" class="   aui_state_focus aui_state_lock">
+
+	<div class="aui_outer">
+	<table class="aui_border">
+		<tbody>
+		<tr>
+			<td class="aui_nw"></td>
+			<td class="aui_n"></td>
+			<td class="aui_ne"></td>
+		</tr>
+		<tr>
+			<td class="aui_w"></td>
+			<td class="aui_c" style="padding-bottom: 0px; border: none;">
+				<div class="aui_inner">
+					<table class="aui_dialog">
+						<tbody>
+						<tr>
+							<td colspan="2" class="aui_header">
+								<div class="aui_titleBar">
+									<div class="aui_title" style="cursor: move; display: none;">消息</div>
+									<a class="aui_close video-player-dialog-close" href="javascript:;" style="display: block;">×</a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td class="aui_icon" style="display: block;">
+								<div class="aui_iconBg" style="background: none;"></div>
+							</td>
+							<td class="aui_main" style="width: auto; height: auto;">
+								<div class="aui_content" style="padding: 0px; display: block;">
+									<div id="video-player1537164554954" style="width: 856px; height: 480px;">
+										<div style="position: relative; width: 100%; height: 100%; left: 0px; top: 0px;">
+											<video style="width: 100%; height: 100%;" muted autoplay="autoplay">
+												<source src="changge.mp4">
+											</video>
+											<div class="sewise-player-ui">
+												<div class="controlbar controlbar-hide">
+													<div class="controlbar-progress">
+														<div class="controlbar-progress-totalline"></div>
+														<div class="controlbar-progress-playedline"></div>
+														<div class="controlbar-progress-playpoint"></div>
+													</div>
+													<div class="controlbar-btns clearfix">
+													<a href="javascript:;" class="fl controlbar-btn controlbar-btns-first controlbar-btns-play" tabindex="1" onclick="play()" style="display: none;">播放</a>
+														<a href="javascript:;" class="fl controlbar-btn controlbar-btns-first controlbar-btns-pause" tabindex="2" style="display:block;">暂停</a>
+														<div class="fl controlbar-times">
+															<span class="controlbar-playtime">00:00</span>
+															<i>/</i>
+															<span class="controlbar-totaltime">00:37</span>
+														</div>
+														<a href="javascript:;" class="fr controlbar-btn controlbar-btns-fullscreen" tabindex="1">全屏</a>
+														<a href="javascript:;" class="fr controlbar-btn controlbar-btns-normalscreen" tabindex="1" style="display: none;">普屏</a>
+														<div class="fr clarity-switch-btn" style="display: block;">
+															<a href="javascript:;" class="clarity-btn-text" tabindex="1">高清</a>
+														</div>
+														<a href="javascript:;" class="fr controlbar-btn controlbar-btns-soundclose" tabindex="1" style="display: none;">音量关闭</a>
+														<a href="javascript:;" class="fr controlbar-btn controlbar-btns-soundopen" tabindex="1">音量打开</a>
+													</div>
+													<div class="controlbar-volumeline-box" style="display: none;">
+													<div class="controlbar-volumeline">
+														<div class="controlbar-volumeline-bg"></div>
+														<div class="controlbar-volumeline-volume" style="height: 60px;"></div>
+														<div class="controlbar-volumeline-dragger" style=""></div>
+														<div class="controlbar-volumeline-point" style="bottom: 54px;"></div>
+													</div>
+												</div>
+													<div class="controlbar-bg">控制栏背景1</div>
+												</div>
+												<div class="topbar topbar-hide" style="display: none;">
+													<div class="topbar-program">
+														<div class="topbar-program-tip"></div>
+														<div class="topbar-program-title"></div>
+													</div>
+													<div class="topbar-clock">2018-9-17 14:26:40</div>
+												</div>
+												<div class="buffer" style="display: none;">
+													<div class="buffer-bg">背景图片</div>
+													<div class="buffer-text">
+														<div class="buffer-text-tip">缓冲...</div>
+														<div class="buffer-text-bufferPt"></div>
+													</div>
+												</div>
+												<div class="big-play-btn" onclick="play()" style="display: none;">
+													<a href="javascript:;" class="big-play-icon" tabindex="1">大播放按钮</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="aui_footer">
+								<div class="aui_buttons" style="display: none;">
+
+							</div>
+							</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</td>
+			<td class="aui_e">
+
+			</td>
+		</tr>
+		<tr>
+			<td class="aui_sw">
+
+			</td>
+			<td class="aui_s">
+
+			</td>
+			<td class="aui_se" style="cursor: se-resize;">
+
+			</td>
+		</tr>
+		</tbody>
+	</table>
+</div>
+</div>
+<div style="position: absolute; width: 572px;margin-left:50%; left:-286px;top: 0px;z-index: 1999;" class="aui_state_focus aui_state_lock">
+	<div class="aui_outer" style="display:none;">
+		<div class="txz">
+			<div class="txz-t">
+				<p class="jstxz">金山通行证</p>
+				<p class="close" style="cursor: pointer">x</p>
+			</div>
+			<div class="txz-b">
+				<div>
+					<div class="txz-b-t">
+						<div class="d"><a href="javascript:void(0);" id="a1" class="active">登录</a></div><div class="z"><a href="javascript:void(0);" id="a2">注册</a></div>
+					</div>
+					<div class="dl dl1" style="display: block;">
+						<div>
+							<p>通行证：
+								<input type="text"><a href="" style="color: #991b0e; text-decoration: underline;margin-left:8px;">马上注册</a>
+							</p>
+							<p style="display:none">请填写您的通行证账号</p>
+						</div>
+						<div>
+							<p>&nbsp;&nbsp;&nbsp;密码：
+								<input type="text"><a href="" style="color: #991b0e; text-decoration: underline;margin-left:8px;">忘记密码？</a>
+							</p>
+							<p style="display:none"> 请输入您的密码</p>
+						</div>
+						<button class="button">立即登录</button>
+					</div>
+					<div class="dl zhuce" style="display: none;">
+						<div>
+							<p><font color="f0000">* </font>通行证账号:
+								<input type="text">
+							</p>
+						</div>
+						<div>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="f0000">* </font>密码:
+								<input type="text">
+							</p>
+						</div>
+						<div>
+							<p>&nbsp;&nbsp;&nbsp;<font color="f0000">* </font>确认密码:
+								<input type="text">
+							</p>
+						</div>
+						<div>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="f0000">* </font>手机号:
+								<input type="text">
+							</p>
+						</div>
+						<div>
+							<p><font color="f0000">* </font>短信验证码:
+								<input type="text">
+							</p>
+						</div>
+						<div>
+							<p>&nbsp;&nbsp;&nbsp;<font color="f0000">* </font>真实姓名:
+								<input type="text">
+							</p>
+						</div>
+						<div>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="f0000">* </font>身份证:
+								<input type="text">
+							</p>
+						</div>
+						<p style="margin-left:70px;font-size:12px;">
+							<input type="checkbox" value="true">我已阅读并同意
+						</p>
+						<p style="margin-left:70px;">
+							<a href="" style="font-size:12px;color: #1a273a;text-decoration: underline;">金山网络服务使用协议</a>
+							<a href="" style="font-size:12px;color: #1a273a;text-decoration: underline;">金山通行证隐私权政策</a>
+						</p>
+						<button class="button" style="margin-left:70px;">确认提交</button>
+						<p style="font-size:13px;margin-top:15px;">注册遇到问题请
+							<a href="" style="color:#ff0000;text-decoration: underline">联系在线客服</a>
+							| 手机/邮箱注册请
+							<a href="" style="color:#ff0000;text-decoration: underline">点击此处</a>
+						</p>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+<section class="section-wrap">
+
+		<div class="section section-1">
+
+			<div class="jx3-top">
+				<div class="inner-i">
+					<div class="l-nav">
+						<div class="jx3-logo">
+							<a href=""><img src="images/jx3-logo.png"/></a>
+						</div>
+						<div class="mend"></div>
+					</div>
+					<div class="r-nav">
+						<div class="t-links">
+							<a href="javascript:;" class="hlight" onclick="denglu()">登录</a>
+							<a href="javascript:;" class="hlight" onclick="zhuce()">注册</a>
+							<a href="pf/充值/chongzhi.html" class="hlight">充值</a>
+							<a href="pf/老玩家回归指南/laowanjia.html" class="hlight">老玩家回归指南</a>
+							<a href="pf/充值/kefu.html" >客服</a>
+							<a href="pf/充值/denglu.html" >增值业务</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section_first">
+				<div class="sec_reg_box">
+					<div class="reg_sec_con_box reg_sec_left">
+						<div class="index-page-reg-box">
+							<div class="register_pc_pub">
+								<div class="reg_tabs hei-line">
+									<ul>
+										<li class="hei-line this_reg">
+											个性注册
+										</li>
+										<li class="tab_rig hei-line">
+											<strong>手机注册</strong>
+										</li>
+									</ul>
+								</div>
+								<div class="register_pc_putong" style="display:block;">
+									<div class="input-box hei-line">
+										<strong class="err-icon hei-line"></strong>
+									    <input class="reg-icon J_regInputCheck regPubUser J_regPubUser" name="J_regPubUser" type="text" placeholder="输入账号(首位字母，非邮箱)" />
+									</div>
+									<div class="input-box hei-line">
+											<strong class="error-icon hei-line"></strong>
+											<input value="" class="reg-icon J_regInputCheck regPubpass J_regPubpass" name="J_regPubpass" type="password" id="regPubForLablePtPass2" placeholder="输入密码"></div>
+								    <div class="input-box hei-line get-code-box J_getCodeBoxRegPc">
+									<p class="get-code-tips hei-line">输入信息获取验证码</p>
+								</div>
+								    <div class="J_putongCodeBoxRegP hei-line input-box" style="display: none">
+                                   <div class="per60_input">
+									   <input value="" class="reg-icon J_regInputCheck regPubcaptcha J_regPubcaptcha" data-for="regPubForLableRegPtVcode" name="J_regPubcaptcha" type="text" id="regPubForLableRegPtVcode2" placeholder="输入验证码">
+								   </div>
+									<div class="pre60_r_box hei-line captcha-pr-box J_captchaImgBtn">
+										点击获取
+										<img src="https://apps-ws.xoyo.com/passport/captcha?tag=2&amp;t=0.14956509237378302">
+									</div>
+								</div>
+								    <div class="td_small J_regPutongAgree">
+										<input type="checkbox" class="regPubcheck" name="regPubcheck" checked="checked">
+										我同意<a href="https://help.xoyo.com/agreement?name=kingsoft-network-service-agreement" target="_blank">金山网络服务使用协议</a>
+									</div>
+										<div class="reg-sub-btn J_regPubregBtn" attr-tongji="pub_reg_btn_pc" attr-tongji-tips="第一步注册按钮被单击">注册账号</div>
+								</div>
+								<div class="J_regPubPhone register_pc_phone" style="display:none;">
+									<div class="input-box hei-line">
+										<strong class="error-icon hei-line"></strong>
+										<input value="" class="reg-icon J_regInputCheck regPubPhone J_regPubPhoneVal" name="J_regPubCheckInput" data-for="regPubForLablePhone" type="text" attr-tongji="phone_input_click" attr-tongji-tips="手机注册手机号输入框被单击" placeholder="输入手机号" id="regPubForLablePhone2">
+									</div>
+									<div class="input-box hei-line get-code-box J_getCodeBoxRegMobi" data-for="regPubForLableGetCode"><p class="get-code-tips hei-line">输入信息获取验证码</p></div>
+									<div class="input-box hei-line">
+										<div class="per60_input">
+											<input value="" placeholder="短信验证码" class="reg-icon J_regInputCheck regPubmsg J_regPubPhoneMsg" name="J_regPubPhoneMsg" type="text" data-for="regPubForLablePhoneCode" attr-tongji="phone_vcode_input_click" attr-tongji-tips="短信验证码输入框被单击" id="regPubForLablePhoneCode2">
+										</div>
+										<div class="pre60_r_box hei-line bg_green captcha-pr-box J_phoneMsgBtn" attr-tongji="phone_vcode_send_btn_click" attr-tongji-tips="手机注册发送短信验证码被单击">
+											发送手机验证码
+											<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo0N0UyRkU1RDFFQUQxMUU3OUU3QUZCRjg4MTAyNDQ4RCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo0N0UyRkU1RTFFQUQxMUU3OUU3QUZCRjg4MTAyNDQ4RCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjQ3RTJGRTVCMUVBRDExRTc5RTdBRkJGODgxMDI0NDhEIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjQ3RTJGRTVDMUVBRDExRTc5RTdBRkJGODgxMDI0NDhEIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+fR/MwQAAABBJREFUeNpi+P//PwNAgAEACPwC/tuiTRYAAAAASUVORK5CYII=">
+									</div>
+										<div class="pre60_r_box hei-line bg_gray captcha-pr-box J_phoneSecond">
+
+										</div>
+									</div>
+									<div class="input-box hei-line">
+										<strong class="error-icon hei-line"></strong>
+										<input value="" placeholder="输入密码" class="reg-icon J_regInputCheck regPubpass J_regPubPhonePass" data-for="regPubForLablePhonePass" name="J_regPubPhonePass" type="password" attr-tongji="phone_pass_input_click" attr-tongji-tips="手机注册密码输入框被单击" id="regPubForLablePhonePass2">
+									</div>
+									<div class="td_small J_regPhoneAgree">
+									<input type="checkbox" class="regPubcheckMob" name="regPubcheckMob" checked="checked" attr-tongji="ag_checkbox_click" attr-tongji-tips="同意协议被单击">我同意<a href="https://help.xoyo.com/agreement?name=kingsoft-network-service-agreement" target="_blank">金山网络服务使用协议
+									</a>
+								</div>
+								<div class="reg-sub-btn J_regPubBtnPhone" attr-tongji="phone_reg_st1_btn_click" attr-tongji-tips="手机注册第一步按钮被单击">
+									注册账号
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+						<div class="reg_sec_con_box reg_sec_mid">
+							<div class="index-page-get-gift fl">
+								<div class="index-page-gift-pop index-page-gift-regno J_giftRegNo" style="display: none">
+									<div class="index-page-gift-regno-close J_regnoClose"></div>
+								</div>
+								<div class="index-page-gift-pop index-page-gift-regok J_giftRegOk" style="display:none;">
+									<div class="index-info-w-220">
+										<p align="center" class="index-page-gift-img">
+											<img src="images/gift_img.png" alt="688元外观礼包">
+										</p>
+										<p align="center" class="index-page-success-tips">恭喜侠士注册成功！礼包激活码</p>
+										<p align="center" class="index-page-show-code">295JX3BA5RTUWG6612M</p>
+										<p align="center" class="index-page-gift-tips">请侠士前往游戏内兑换奖励：</p>
+										<p class="index-page-gift-info">活动日历—兑换—输入激活码—确认领取成功， 前往信使处领取奖励；
+										</p>
+									</div>
+								</div>
+								<span class="index-page-top-btn index-page-top-btn01 J_getGiftTop tongji_btn" data-tongji="landpage-20171214-netbar1-topmid">领取礼包</span>
+							</div>
+						</div>
+					<div class="reg_sec_con_box reg_sec_right">
+						<div class="index-page-load-client fl">
+							<a href="wf/jw3_download/xiazai.html" class="index-page-top-btn index-page-top-btn02 tongji_btn J_jx3_download_tj" data-tongji="landpage-20171214-netbar1-toprig">下载游戏 </a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="right-sticky-nav">
+				<a class="right-sticky-nav-link link-1" href="javascript:;"></a>
+				<a class="right-sticky-nav-link link-2" target="_blank" href="wf/jw3_download/xiazai.html"></a>
+				<a class="right-sticky-nav-link link-3" href="index/index.html"></a>
+				<a class="right-sticky-nav-link link-4" href="javascript:;"></a>
+				<a class="right-sticky-nav-link link-5" target="_blank" href="//jx3.xoyo.com/zt/2018/08/01/20180803anniversary9th/index.html"></a>
+			</div>
+		</div>
+		</div>
+
+		<div class="section section-2">
+			<div class="fp-tableCell">
+				<div class="sec_2">
+					<div class="left_tab_box left_hide">
+						<div class="pos_box">
+							<div class="video_tab_box">
+								<ul class="video_tab_ul">
+									<li class="act">夜景</li>
+									<li>雪景</li>
+									<li>光影</li>
+									<li>水流</li>
+								</ul>
+							</div>
+							<div class="mouse"></div>
+						</div>
+					</div>
+					<div class="video_bg_box" style="display: block;">
+						<div class="world_bg yejing" style="display: block">
+
+						</div>
+						<div class="world_bg xuejing">
+
+						</div>
+						<div class="world_bg guangying">
+
+						</div>
+						<div class="world_bg shuiliu">
+
+						</div>
+						<video id="J_world_video_1" class="world_video" muted="" data-autoplay="" src="0.mp4" loop="" data-keepplaying="" style="display: block" autoplay="autoplay">
+
+						</video>
+
+					</div>
+					<div class="right-sticky-nav right_hide">
+						<a class="right-sticky-nav-link link-1" href="javascript:;"></a>
+						<a class="right-sticky-nav-link link-2" target="_blank" href="wf/jw3_download/xiazai.html"></a>
+						<a class="right-sticky-nav-link link-3" href="index/index.html"></a>
+						<a class="right-sticky-nav-link link-4" href="javascript:;"></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="section section-3">
+			<div class="left_tab_box left_hide">
+				<div class="pos_box">
+					<div class="school_tab_box">
+						<div class="school_tab_ul">
+							<div class="line_box right">
+								<div data-school="badao" class="li act">霸刀</div>
+							</div>
+							<div class="line_box">
+								<div data-school="changge" class="li">长歌</div>
+								<div data-school="cangyun" class="li">苍云</div>
+								<div data-school="gaibang" class="li">丐帮</div>
+								<div data-school="mingjiao" class="li">明教</div>
+							</div>
+							<div class="line_box">
+								<div data-school="tangmen" class="li">唐门</div>
+								<div data-school="wudu" class="li">五毒</div>
+								<div data-school="cangjian" class="li">藏剑</div>
+								<div data-school="tiance" class="li">天策</div>
+							</div>
+							<div class="line_box">
+								<div data-school="chunyang" class="li">纯阳</div>
+								<div data-school="shaolin" class="li">少林</div>
+								<div data-school="qixiu" class="li">七秀</div>
+								<div data-school="wanhua" class="li">万花</div>
+							</div>
+						</div>
+					</div>
+					<div class="mouse"></div>
+				</div>
+			</div>
+			<div class="abs_box">
+				<div class="school_content_box" style="">
+					<div class="school_message_box badao" style="display: block">
+						<img class="school_text school_left_info" alt="" src="images/text0.png">
+						<div class="school_video_btn school_left_info">
+
+
+							<a class="video-player-link" href="javascript:" data-video-width="856" data-video-height="480" data-video-source-url="//static.jx3.xoyo.com/video/20180524/HDSuper_badao.mp4">
+								<img src="images/video.png">
+							</a>
+
+
+						</div>
+					</div>
+					<div class="school_message_box  changge">
+						<img class="school_text school_left_info" alt="" src="images/text1.png">
+						<div class="school_video_btn school_left_info">
+
+
+							<a class="video-player-link" href="javascript:;" data-video-width="856" data-video-height="480" src="changge.mp4">
+								<img src="images/video1.png">
+							</a>
+
+
+						</div>
+					</div>
+					<div class="school_message_box  cangyun">
+						<img class="school_text school_left_info" alt="" src="images/text2.png">
+						<div class="school_video_btn school_left_info">
+
+
+							<a class="video-player-link" href="javascript:" data-video-width="856" data-video-height="480" data-video-source-url="//static.jx3.xoyo.com/video/20180524/HDSuper_cangyun.mp4">
+								<img src="images/video2.png">
+							</a>
+
+
+						</div>
+					</div>
+					<div class="school_message_box  gaibang">
+						<img class="school_text school_left_info" alt="" src="images/text3.png">
+						<div class="school_video_btn school_left_info">
+
+
+							<a class="video-player-link" href="javascript:" data-video-width="856" data-video-height="480" data-video-source-url="//static.jx3.xoyo.com/video/20180524/HDSuper_gaibang.mp4">
+								<img src="images/video3.png">
+							</a>
+
+
+						</div>
+					</div>
+					<div class="school_message_box  chunyang">
+						<img class="school_text school_left_info" alt="" src="images/text4.png">
+						<div class="school_video_btn school_left_info">
+
+
+							<a class="video-player-link" href="javascript:" data-video-width="856" data-video-height="480" data-video-source-url="//static.jx3.xoyo.com/video/20180524/HDSuper_chunyang.mp4">
+								<img src="images/video4.png">
+							</a>
+
+
+						</div>
+					</div>
+					<div class="school_message_box  cangjian">
+						<img class="school_text school_left_info" alt="" src="images/text5.png">
+						<div class="school_video_btn school_left_info">
+
+
+							<a class="video-player-link" href="javascript:" data-video-width="856" data-video-height="480" data-video-source-url="//static.jx3.xoyo.com/video/20180524/HDSuper_cangjian.mp4">
+								<img src="images/video5.png">
+							</a>
+
+
+						</div>
+					</div>
+					<div class="school_message_box  shaolin">
+						<img class="school_text school_left_info" alt="" src="images/text6.png">
+						<div class="school_video_btn school_left_info">
+
+
+							<a class="video-player-link" href="javascript:" data-video-width="856" data-video-height="480" data-video-source-url="//static.jx3.xoyo.com/video/20180524/HDSuper_shaolin.mp4">
+								<img src="images/video6.png">
+							</a>
+
+
+						</div>
+					</div>
+					<div class="school_message_box  wudu">
+						<img class="school_text school_left_info" alt="" src="images/text7.png">
+						<div class="school_video_btn school_left_info">
+
+
+							<a class="video-player-link" href="javascript:" data-video-width="856" data-video-height="480" data-video-source-url="//static.jx3.xoyo.com/video/20180524/HDSuper_wudu.mp4">
+								<img src="images/video7.png">
+							</a>
+
+
+						</div>
+					</div>
+					<div class="school_message_box  tiance">
+						<img class="school_text school_left_info" alt="" src="images/text8.png">
+						<div class="school_video_btn school_left_info">
+
+
+							<a class="video-player-link" href="javascript:" data-video-width="856" data-video-height="480" data-video-source-url="//static.jx3.xoyo.com/video/20180524/HDSuper_tiance.mp4">
+								<img src="images/video8.png">
+							</a>
+
+
+						</div>
+					</div>
+					<div class="school_message_box  tangmen">
+						<img class="school_text school_left_info" alt="" src="images/text9.png">
+						<div class="school_video_btn school_left_info">
+
+
+							<a class="video-player-link" href="javascript:" data-video-width="856" data-video-height="480" data-video-source-url="//static.jx3.xoyo.com/video/20180524/HDSuper_tangmen.mp4">
+								<img src="images/video9.png">
+							</a>
+
+
+						</div>
+					</div>
+					<div class="school_message_box  qixiu">
+						<img class="school_text school_left_info" alt="" src="images/text10.png">
+						<div class="school_video_btn school_left_info">
+
+
+							<a class="video-player-link" href="javascript:" data-video-width="856" data-video-height="480" data-video-source-url="//static.jx3.xoyo.com/video/20180524/HDSuper_qixiu.mp4">
+								<img src="images/video10.png">
+							</a>
+
+
+						</div>
+					</div>
+					<div class="school_message_box  mingjiao">
+						<img class="school_text school_left_info" alt="" src="images/text11.png">
+						<div class="school_video_btn school_left_info">
+
+
+							<a class="video-player-link" href="javascript:" data-video-width="856" data-video-height="480" data-video-source-url="//static.jx3.xoyo.com/video/20180524/HDSuper_mingjiao.mp4">
+								<img src="images/video11.png">
+							</a>
+
+
+						</div>
+					</div>
+					<div class="school_message_box  wanhua">
+						<img class="school_text school_left_info" alt="" src="images/text12.png">
+						<div class="school_video_btn school_left_info">
+
+
+							<a class="video-player-link" href="javascript:" data-video-width="856" data-video-height="480" data-video-source-url="//static.jx3.xoyo.com/video/20180524/HDSuper_wanhua.mp4">
+								<img src="images/video12.png">
+							</a>
+
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="right-sticky-nav right_hide">
+				<a class="right-sticky-nav-link link-1" href="javascript:XPASS.signup();"></a>
+				<a class="right-sticky-nav-link link-2" target="_blank" href="wf/jw3_download/xiazai.html"></a>
+				<a class="right-sticky-nav-link link-3" href="index/index.html"></a>
+				<a class="right-sticky-nav-link link-4" href="javascript:;"></a>
+			</div>
+		</div>
+
+		<div class="section section-4">
+			<div class="left_tab_box left_hide">
+				<div class="pos_box">
+					<div class="video_tab_box">
+						<div class="dodge_box">
+							<a href="" class="video-player-link" data-video-width="856" data-video-height="480" data-video-source-url="4.mp4">
+								<img src="images/video_btn.png" />
+							</a>
+						</div>
+					</div>
+					<div class="mouse"></div>
+				</div>
+			</div>
+			<div class="video_bg_box">
+				<video class="world_video" muted="" data-autoplay="" src="4.mp4" loop="" data-keepplaying="" style="display: block" autoplay="autoplay">
+
+				</video>
+			</div>
+
+			<div class="right-sticky-nav right_hide">
+				<a class="right-sticky-nav-link link-1" href="javascript:XPASS.signup();"></a>
+				<a class="right-sticky-nav-link link-2" target="_blank" href="wf/jw3_download/xiazai.html"></a>
+				<a class="right-sticky-nav-link link-3" href="index/index.html"></a>
+				<a class="right-sticky-nav-link link-4" href="javascript:;"></a>
+			</div>
+		</div>
+
+		<div class="section section-5">
+			<div class="s_footer">
+			<div class="peizhi-box">
+				<div class="peizhi-wrap">
+					<div class="peizhi-con">
+						<h3 class="peizhi-tit">台式机配置要求</h3>
+						<div class="down_tab">
+							<ul id="tabs3">
+								<li class="thistab">
+									<a href="javascript:;">最简画质</a>
+								</li>
+								<li class="">
+									<a href="javascript:;">高效画质</a>
+								</li>
+								<li class="">
+									<a href="javascript:;">电影画质</a>
+								</li>
+								<li class="">
+									<a href="javascript:;">极致画质</a>
+								</li>
+								<li class="">
+									<a href="javascript:;">极致2K</a>
+								</li>
+							</ul>
+							<!-- 配置信息 start -->
+							<div id="tab_conbox3">
+								<div class="config_txt" style="display:block;">
+									<p>CPU ：Intel(R) Core(TM) i3</p>
+									<p>内 存：4G</p>
+									<p>显 卡：GeForce GT 610</p>
+									<p>分辨率：1280*720</p>
+									<p>系 统：《剑网3》基于DX11开发，不支持XP系统，建议使用win7、win8、win10 64位系统</p>
+								</div>
+
+								<div class="config_txt" style="display: none;">
+									<p>CPU ：Intel(R) Core(TM) i5</p>
+									<p>内 存：8G</p>
+									<p>显 卡：GeForce GTX 1050/1050TI</p>
+									<p>分辨率：1920*1080</p>
+									<p>系 统：《剑网3》基于DX11开发，不支持XP系统，建议使用win7、win8、win10 64位系统</p>
+								</div>
+
+								<div class="config_txt" style="display: none;">
+									<p>CPU ：Intel(R) Core(TM) i5</p>
+									<p>内 存：8G</p>
+									<p>显 卡：GeForce GTX 1060</p>
+									<p>分辨率：1920*1080</p>
+									<p>系 统：《剑网3》基于DX11开发，不支持XP系统，建议使用win7、win8、win10 64位系统</p>
+								</div>
+								<div class="config_txt" style="display: none;">
+									<p>CPU ：Intel(R) Core(TM) i7</p>
+									<p>内 存：16G</p>
+									<p>显 卡： GeForce GTX 1070</p>
+									<p>分辨率：1920*1080</p>
+									<p>系 统：《剑网3》基于DX11开发，不支持XP系统，建议使用win7、win8、win10 64位系统</p>
+								</div>
+								<div class="config_txt" style="display: none;">
+									<p>CPU ：Intel(R) Core(TM) i7</p>
+									<p>内 存：16G</p>
+									<p>显 卡： GeForce GTX 1080</p>
+									<p>分辨率：2560x1440</p>
+									<p>系 统：《剑网3》基于DX11开发，不支持XP系统，建议使用win7、win8、win10 64位系统</p>
+								</div>
+							</div>
+							<!-- 配置信息 start -->
+						</div>
+					</div>
+					<div class="peizhi-con">
+						<h3 class="peizhi-tit">笔记本配置要求</h3>
+						<div class="down_tab">
+							<ul id="tabs4">
+								<li class="thistab">
+									<a href="javascript:;">最简画质</a>
+								</li>
+								<li class="">
+									<a href="javascript:;">高效画质</a>
+								</li>
+								<li class="">
+									<a href="javascript:;">电影画质</a>
+								</li>
+								<li class="">
+									<a href="javascript:;">极致画质</a>
+								</li>
+								<li class="">
+									<a href="javascript:;">极致2K</a>
+								</li>
+							</ul>
+							<!-- 配置信息 start -->
+							<div id="tab_conbox4">
+								<div class="config_txt" style="display: block;">
+									<p>CPU ：Intel(R) Core(TM) i5</p>
+									<p>内 存：4G</p>
+									<p>显 卡：GeForce GT 740M</p>
+									<p>分辨率：1366*768</p>
+									<p>系 统：《剑网3》基于DX11开发，不支持XP系统，建议使用win7、win8、win10 64位系统</p>
+								</div>
+
+								<div class="config_txt" style="display: none;">
+									<p>CPU ：Intel(R) Core(TM) i5</p>
+									<p>内 存：8G</p>
+									<p>显 卡：GeForce GTX 1050/1050TI</p>
+									<p>分辨率：1920*1080</p>
+									<p>系 统：《剑网3》基于DX11开发，不支持XP系统，建议使用win7、win8、win10 64位系统</p>
+								</div>
+
+								<div class="config_txt" style="display: none;">
+									<p>CPU ：Intel(R) Core(TM) i5</p>
+									<p>内 存：8G</p>
+									<p>显 卡：GeForce GTX 1060</p>
+									<p>分辨率：1920*1080</p>
+									<p>系 统：《剑网3》基于DX11开发，不支持XP系统，建议使用win7、win8、win10 64位系统</p>
+								</div>
+								<div class="config_txt" style="display: none;">
+									<p>CPU ：Intel(R) Core(TM) i7</p>
+									<p>内 存：16G</p>
+									<p>显 卡： GeForce GTX 1070</p>
+									<p>分辨率：1920*1080</p>
+									<p>系 统：《剑网3》基于DX11开发，不支持XP系统，建议使用win7、win8、win10 64位系统</p>
+								</div>
+								<div class="config_txt" style="display: none;">
+									<p>CPU ：Intel(R) Core(TM) i7</p>
+									<p>内 存：16G</p>
+									<p>显 卡： GeForce GTX 1080</p>
+									<p>分辨率：2560x1440</p>
+									<p>系 统：《剑网3》基于DX11开发，不支持XP系统，建议使用win7、win8、win10 64位系统</p>
+								</div>
+							</div>
+							<!-- 配置信息 start -->
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+
+			<div class="public_footer">
+				<div class="public_footer_box">
+					<p class="public_footer_top">
+                <span class="public_footer_top_left" style="float: left;" >
+                    <a href=""><img src="images/jinshang.png" /></a>
+                    <a href=""><img src="images/xishangju.png"/></a>
+                </span>
+                <span class="public_footer_top_right">
+                    <a href="">关于我们</a>|
+                    <a href="">服务协议</a>|
+                    <a href="">客服中心</a>|
+                    <a href="">联系我们</a>|
+                    <a href="">诚聘英才</a>|
+                </span>
+					</p>
+					<p class="public_footer_mid">
+                <span class="public_footer_mid_font">
+                    Copyright © 1999-
+                    <span class="J_pubFootYear">2018</span>
+                     成都西山居世游科技有限公司 版权所有
+                </span>
+					</p>
+					<p class="public_footer_mid">
+						<a href="" style="font-size:11px;color: #555;">增值电信业务经营许可证 川B2-20130104</a>
+						蜀ICP备14009198号-2
+						<a href="" style="font-size:11px;color: #555;">川公网安备 51019002000850号 </a>
+						<a href="" class="J_whbBeianFootLink" style="font-size:11px;color: #555;">
+							<span class="J_whbBeianFootNum">文网游备字〔2017〕Ｃ-RPG 0031 号 </span>
+							<img src="images/public_footer-img.png" style="display: inline-block;vertical-align: middle;" />
+						</a>
+					</p>
+					<p class="public_footer_mid">
+						<a href="" style="font-size:11px;color: #555;">网络文化经营许可证 川网文[2015]1923-059号</a>
+						<a href="" style="font-size:11px;color: #555; padding:0 2px;" >互联网出版许可证 新出网证<川>字027号</a>
+					</p>
+					<p class="public_footer_mid">
+						<a href="" style="font-size:11px;color: #555;">信息系统安全等级保护备案证书编号：510116990037</a>
+						<a href="" style="font-size:11px;color: #555; padding:0 2px;" >《网络游戏管理暂行办法》第九条内容</a>
+						<a href="" style="font-size:11px;color: #555; padding:0 2px;" >《中华人民共和国网络安全法》</a>
+					</p>
+					<p class="public_footer_bot">
+                <span class="public_footer_top_left" style="float: left;" >
+                    <a href="" style="float:left;"><img src="images/kx.png" /></a>
+                    <a href="" style="float:left;"><img src="images/j.png" /></a>
+                    <span style="display: block; margin-left: -95px;margin-left:0\0;*margin-left:0; float:left;padding-left:95px;">
+                        婉拒18岁以下未成年用户进入游戏 健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑
+                        <br/>
+                        沉迷游戏伤身 合理安排时间 享受健康生活 进入：
+                        <a href="" style="color: #555; padding: 0 2px; ">未成年人家长监护系统</a>
+                        <a href="" style="color: #cc0e2b; padding: 0 2px; text-decoration: none">违法和不良信息举报中心</a>
+                    </span>
+                </span>
+
+					</p>
+					<p></p>
+				</div>
+			</div>
+
+		</div>
+	</section>
+<div id="fp-nav" class="left">
+	<ul class="section-btn">
+
+	  <li class="on">
+		  <a href="#">
+			  <span></span>
+		  </a>
+	  </li>
+
+	  <li>
+		  <a href="#">
+			  <span></span>
+		  </a>
+	  </li>
+
+	  <li>
+		  <a href="#">
+			  <span></span>
+		  </a>
+	  </li>
+
+	  <li>
+		  <a href="#">
+			  <span></span>
+		  </a>
+	  </li>
+
+	  <li>
+		  <a href="#">
+			  <span></span>
+		  </a>
+	  </li>
+
+	</ul>
+	</div>
+<div class="hidediv" style="display:none;width: 100%; height: 100%; position: fixed; z-index: 1991; top: 0px; left: 0px; overflow: hidden;">
+	<div style="height: 100%; background: rgb(0, 0, 0); opacity: 0.7; z-index: 1995;"></div>
+</div>
+<div class="lastdiv" style="display:none;width: 100%; height: 100%; position: fixed; z-index: 2002; top: 0px; left: 0px; overflow: hidden;">
+	<div style="height: 100%; background: rgb(0, 0, 0); opacity: 0.7; z-index: 2003;"></div>
+</div>
+<script src="jquery-1.12.4.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
